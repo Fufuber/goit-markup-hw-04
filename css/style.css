@@ -256,7 +256,7 @@ img {
 
 }
 
-.nav-studio {
+.nav-studio:first-child {
   position: relative;
   color: #404bbf;
   padding: 24px 0;
