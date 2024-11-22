@@ -205,20 +205,18 @@ img {
 
 .header-chapter {
   border-bottom: 1px solid #e7e9fc;
-}
-
-.header-div{
-  display: flex;
-  height: 100%;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-between;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
+  display: flex;
+  height: 100%;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .navigation-main {
