@@ -368,6 +368,7 @@ img {
   display: flex;
   justify-content: center;
   gap: 24px;
+  list-style-type: none;
 }
 
 .media-icons {
@@ -390,10 +391,12 @@ img {
 .socialmedia-icons {
   width: 40px;
   height: 40px;
-
-
 }
 
+.icons-style {
+  fill: #f4f4fd;
+
+}
 .our-portfolios {
   padding: 120px 0;
 }
