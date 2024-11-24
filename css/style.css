@@ -13,7 +13,6 @@ body {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  
 }
 
 .logo-studio-word {
@@ -51,7 +50,7 @@ body {
   letter-spacing: 0.02em;
   color: #434455;
   text-decoration: none;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1)
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-mail:hover {
@@ -209,10 +208,8 @@ img {
   border-bottom: 1px solid #e7e9fc;
   height: 72px;
   border-bottom: 1px solid #e7e9fc;
-  box-shadow:
-    0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16),
-    0px 1px 6px rgba(46, 47, 66, 0.08);
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
   display: flex;
 }
 
@@ -242,7 +239,6 @@ img {
   display: flex;
   gap: 40px;
   list-style-type: none;
-
 }
 
 .nav-studio-list:nth-of-type(1) .nav-studio::after {
@@ -274,7 +270,11 @@ img {
 
 .main-head {
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46,47,66,0.7),rgba(46, 47, 66, 0.7)),url(../images/people-office.jpg);
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/people-office.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -324,7 +324,6 @@ img {
   border-radius: 4px;
   border: 1px solid #8e8f99;
   margin-bottom: 8px;
-  
 }
 
 .main-description-sections .container ul li h3 {
@@ -342,11 +341,14 @@ img {
 .four-persons-list {
   display: flex;
   gap: 24px;
+  list-style-type: none;
 }
 
 .persond-id {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
 .persone-name-style {
@@ -373,10 +375,10 @@ img {
 .bottom-images-container-list {
   display: flex;
   flex-direction: row;
-    flex-wrap: wrap;
-    column-gap: 24px;
-    row-gap: 48px;
-    list-style-type: none;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  list-style-type: none;
 }
 
 .onebox {
@@ -384,16 +386,13 @@ img {
   text-align: center;
 }
 
-
-
 .container-list-style {
   font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    margin-bottom: 8px;
-    
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .bottom-chapter {
