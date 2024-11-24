@@ -380,11 +380,11 @@ img {
   justify-content: center;
 }
 
- .media-icons :hover {
+ .media-icons:hover {
   background-color: #404bbf;
  }
 
- .media-icons :focus{
+ .media-icons:focus{
   background-color: #404bbf;
  }
 .socialmedia-icons {
