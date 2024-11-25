@@ -66,7 +66,7 @@ body {
 
 .main-head {
   background-color: #2e2f42;
-  padding: 188px 0;
+  padding: 188px 0px;
 }
 
 .main-head-word {
@@ -382,16 +382,15 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 }
 
- .media-icons:hover {
+.media-icons:hover {
   background-color: #404bbf;
- }
+}
 
- .media-icons:focus{
+.media-icons:focus {
   background-color: #404bbf;
- }
+}
 
 .socialmedia-icons {
   width: 40px;
@@ -400,7 +399,6 @@ img {
 
 .icons-style {
   fill: #f4f4fd;
-
 }
 .our-portfolios {
   padding: 120px 0;
@@ -417,11 +415,26 @@ img {
   column-gap: 24px;
   row-gap: 48px;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.onebox {
-  flex: 1 1 calc(33.333% - 20px);
+.one-box {
+  flex-basis: calc((100% - 3 * 24px) / 4);
   text-align: center;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.one-box:hover .services-mini-name {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transform: translateY(0%)
+
+}
+
+.bottom-images-div {
+  position: relative;
+  overflow: hidden;
 }
 
 .container-list-style {
