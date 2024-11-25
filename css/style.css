@@ -472,3 +472,9 @@ img {
 .bottom-explanation {
   max-width: 264px;
 }
+
+.bottom-div {
+  display: flex;
+  align-items: baseline;
+  
+}
