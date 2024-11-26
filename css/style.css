@@ -471,7 +471,7 @@ img {
   padding: 100px 0;
 }
 
-.bottom-chapter .container a {
+.bottom-chapter .logo-design a {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -513,7 +513,7 @@ margin-bottom: 16px;
 }
 
 .footer-socials-link {
-  display: flex;
+  display: flex; 
   align-items: center;
   justify-content: center;
   width: 100%;
